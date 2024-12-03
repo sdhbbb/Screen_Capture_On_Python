@@ -19,3 +19,7 @@ sys, os, keyboard, PyQt5 등의 모듈을 이용하였습니다.
 + add specifying zone capture function
 + add support various extensions
 + etc...
+
++ 영역 캡쳐 기능 추가
++ 다양한 확장자 지원
++ 기타 등등

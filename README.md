@@ -1,5 +1,4 @@
 # Screen_Capture_On_Python, SCOP
-'''
 Capture screen using python.
 파이썬을 이용한 스크린 캡쳐 도구입니다.
 
@@ -8,15 +7,13 @@ Built for Windows 11, feel free to use it in your own context.
 
 Use pyautogui package for gui, some environment can't work.
 gui 이용을 위한 pyautogui 패키지 이용으로 일부 환경에서는 정상적인 기능이 작동하지 않을수도 있습니다.
-'''
 
-
+***
 
 
 
 
 # how to running it?
-'''
 Use sys, os, keyboard, json, PyQt5, pyautogui, etc
 If you don't have that package, use pip command to download the module
 
@@ -37,15 +34,14 @@ os.environ["QT_PLUGIN_PATH"] = qt_plugin_path
 
 대부분의 경우, 파이썬 설치 폴더의 Lib\site-packages 폴더 안에 설치되나, 다른 곳에 설치하였을 경우, 직접 설치된 위치를 지정하여 주시면 됩니다.
 In most cases, it will be installed in the Lib/site-packages folder of your Python installation folder, but if you have installed it elsewhere, please specify the location of your own installation.
-'''
 
+***
 
 
 
 
 
 # future plan
-'''
 + add specifying zone capture function
 + add support various extensions
 + etc...
@@ -53,4 +49,4 @@ In most cases, it will be installed in the Lib/site-packages folder of your Pyth
 + 영역 캡쳐 기능 추가
 + 다양한 확장자 지원
 + 기타 등등
-'''
+

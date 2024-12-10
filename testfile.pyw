@@ -59,16 +59,16 @@ class SettingsWindow(QWidget):
         layout = QVBoxLayout()
         
         # Hotkey Input
-        layout.addWidget(QLabel("Capture Hotkey:"))
+        layout.addWidget(QLabel("Screen Capture key:"))
         self.hotkey_input = QLineEdit(self.screenshot_app.hotkey)
         layout.addWidget(self.hotkey_input)
         
         # Save Path Input
-        layout.addWidget(QLabel("Save Path:"))
+        layout.addWidget(QLabel("Save Folder:"))
         self.save_path_input = QLineEdit(self.screenshot_app.save_path)
         layout.addWidget(self.save_path_input)
         
-        self.save_path_button = QPushButton("Browse")
+        self.save_path_button = QPushButton("Fold Browse")
         self.save_path_button.clicked.connect(self.browse_save_path)
         layout.addWidget(self.save_path_button)
         
@@ -78,7 +78,7 @@ class SettingsWindow(QWidget):
         layout.addWidget(self.save_button)
         
         self.setLayout(layout)
-        self.setWindowTitle("Settings")
+        self.setWindowTitle("SCOP")
         self.setGeometry(300, 300, 400, 200)
 
     def browse_save_path(self):
@@ -86,7 +86,7 @@ class SettingsWindow(QWidget):
             self, 
             "Select Save Path", 
             self.screenshot_app.save_path, 
-            "Images (*.png *.jpg *.bmp)"
+            "Images (*.png)"
         )
         if path:
             self.save_path_input.setText(path)

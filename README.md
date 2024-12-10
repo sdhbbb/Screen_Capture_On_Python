@@ -5,8 +5,8 @@ Capture screen using python.
 Built for Windows 11, feel free to use it in your own context.
  <br />윈도우 11 환경에서 제작되었으며, 상황에 맞게 자유롭게 사용하거나 수정하실 수 있습니다.
 
-Use pyautogui package for gui, some environment can't work.
- <br />gui 이용을 위한 pyautogui 패키지 이용으로 일부 환경에서는 정상적인 기능이 작동하지 않을수도 있습니다.
+Use PyQt5 for gui pyautogui package, some environment can't work.
+ <br />gui 이용을 위한 PyQt 패키지 혹은 pyautogui 이용으로 일부 환경에서는 정상적인 기능이 작동하지 않을수도 있습니다.
 
 ***
 

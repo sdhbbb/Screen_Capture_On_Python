@@ -5,12 +5,34 @@ Capture screen using python.
 
 
 
+
+
+
+
 # how to running it?
 Use sys, os, keyboard, PyQt5, etc
 If you don't have that module, use pip command to download the module
 
 sys, os, keyboard, PyQt5 등의 모듈을 이용하였습니다.
 만약 해당하는 모델을 가지고 있지 않다면, pip 커맨드를 통해 해당 모듈을 다운받아주세요.
+
+For PyQt5, write code to specify the location of the plugin folder, because some environment(ex, windows 11) may not recognize the location of the plugin
+If it works fine without specifying the location, you can comment out the code above and move on.
+PyQt5의 경우, 일부 환경에서는 플러그인의 위치를 인식하지 못하는 경우로 인하여 플러그인 폴더의 위치를 명시하는 코드를 작성하였습니다.
+만일 위치를 명시하지 않아도 작동이 올바르게 되는 경우, 위 코드는 주석 처리 후 넘어가도 됩니다.
+
+example)
+작성 된 예시)
+SCOP can't specifying the location, use this code. If, it works fine, don't use it.
+오류로 인해 QT 플러그인의 경로를 명시적으로 적어둔 코드 작성, 오류가 없을 시 사용하지 않아도 됨.
+qt_plugin_path = r"C:\Users\Username(ex.Hong-Gildong)\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\Qt5\plugins"
+os.environ["QT_PLUGIN_PATH"] = qt_plugin_path
+
+대부분의 경우, 파이썬 설치 폴더의 Lib\site-packages 폴더 안에 설치되나, 다른 곳에 설치하였을 경우, 직접 설치된 위치를 지정하여 주시면 됩니다.
+In most cases, it will be installed in the Lib/site-packages folder of your Python installation folder, but if you have installed it elsewhere, please specify the location of your own installation.
+
+
+
 
 
 

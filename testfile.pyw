@@ -1,6 +1,8 @@
 import os
 import sys
+# json 사용을 위한 패키지
 import json
+# 핫키 사용을 위한 패키지
 import keyboard
 import pyautogui
 from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QVBoxLayout, 
@@ -8,12 +10,16 @@ from PyQt5.QtWidgets import (QApplication, QWidget, QLabel, QVBoxLayout,
                              QSystemTrayIcon, QMenu)
 from PyQt5.QtGui import QIcon
 from PyQt5.QtCore import QThread, pyqtSignal
+# 파일명에 타임스탬프(년월일시분초 표기)를 위해 사용한 패키지
 from datetime import datetime
 
-# Qt 플랫폼 플러그인 경로를 명시적으로 설정
+# Qt 플랫폼 플러그인 경로를 명시적으로 설정, 오류가 없을 시 사용하지 않는 코드
+'''
 qt_plugin_path = r"C:\Users\신동희\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\Qt5\plugins"
 os.environ["QT_PLUGIN_PATH"] = qt_plugin_path
+'''
 
+# class로 코드를 묶어 관리하기 쉽게 작성,
 class ScreenshotThread(QThread):
     screenshot_taken = pyqtSignal(str)
 

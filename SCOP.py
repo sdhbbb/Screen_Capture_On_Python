@@ -25,8 +25,8 @@ from datetime import datetime
 
 # Qt 플러그인의 경로를 명시(일부 환경에선 미지정시 오류가 발생하여 PyQt5가 작동하도록 환경 변수 설정)
 # 아래와 같은 코드에서 C:\~~~ 와 같은 Qt 플러그인의 위치를 찾아 직접 경로를 입력하면 된다.
-qt_plugin_path = r"C:\Users\신동희\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\Qt5\plugins"
-os.environ["QT_PLUGIN_PATH"] = qt_plugin_path
+'''qt_plugin_path = r"C:\Users\사용자명\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\Qt5\plugins"
+os.environ["QT_PLUGIN_PATH"] = qt_plugin_path'''
 
 # 코드가 눈에 잘 보이게 하기 위해 나눈 클래스
 # 1. 스크린샷을 찍는 작업을 백그라운드에서 처리하는 과정

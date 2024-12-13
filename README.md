@@ -1,4 +1,7 @@
 # Screen_Capture_On_Python, SCOP
+Open Source Capture Program Project
+ <br />오픈 소스 캡쳐 프로그램 프로젝트, SCOP 입니다
+ 
 Capture screen using python.
  <br />파이썬을 이용한 스크린 캡쳐 도구입니다.
 

@@ -39,9 +39,8 @@ example)
  <br />qt_plugin_path = r"C:\Users\Username(ex.Hong-Gildong)\AppData\Local\Programs\Python\Python313\Lib\site-packages\PyQt5\Qt5\plugins"
  <br />os.environ["QT_PLUGIN_PATH"] = qt_plugin_path
 
-대부분의 경우, 파이썬 설치 폴더의 Lib\site-packages 폴더 안에 설치되나, 다른 곳에 설치하였을 경우, 직접 설치된 위치를 지정하여 주시면 됩니다.
- <br />In most cases, it will be installed in the Lib/site-packages folder of your Python installation folder, but if you have installed it elsewhere, please specify the location of your own installation.
-
+In most cases, it will be installed in the Lib/site-packages folder of your Python installation folder, but if you have installed it elsewhere, please specify the location of your own installation.
+ <br />대부분의 경우, 파이썬 설치 폴더의 Lib\site-packages 폴더 안에 설치되나, 다른 곳에 설치하였을 경우, 직접 설치된 위치를 지정하여 주시면 됩니다.
 ***
 
 

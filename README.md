@@ -27,7 +27,7 @@ sys, os, keyboard, json, PyQt5, pyautogui 등의 패키지를 이용하였습니
  <br />만약 해당하는 패키지를 가지고 있지 않다면, pip 커맨드를 통해 해당 모듈을 다운받아주세요.
 
  ```python
-pip install json
+ex) pip install json
 ```
 
 PyQt5의 경우, 일부 환경에서는 플러그인의 위치를 인식하지 못하는 경우로 인하여 플러그인 폴더의 위치를 명시하는 코드를 작성하였습니다.

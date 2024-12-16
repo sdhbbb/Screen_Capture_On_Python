@@ -5,7 +5,7 @@ Open Source Capture Program Project
 Capture screen using python.
  <br />파이썬을 이용한 스크린 캡쳐 도구입니다.
 
-Built for Windows 11, feel free to use it in your own context.
+Built for Windows 11, feel free to use it you want
  <br />윈도우 11 환경에서 제작되었으며, 상황에 맞게 자유롭게 사용하거나 수정하실 수 있습니다.
 
 Use PyQt5 for gui pyautogui package, some environment can't work.

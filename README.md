@@ -49,7 +49,7 @@ In most cases, it will be installed in the Lib/site-packages folder of your Pyth
 
 
 
-# future plan
+# future plans
 + add zone capture function
 + add support various extensions
 + etc...

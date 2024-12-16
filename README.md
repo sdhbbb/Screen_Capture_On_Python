@@ -33,6 +33,8 @@ ex) pip install json keyboard pyautogui PyQt5
 PyQt5의 경우, 일부 환경에서는 플러그인의 위치를 인식하지 못하는 경우로 인하여 플러그인 폴더의 위치를 명시하는 코드를 작성하였습니다.
  <br />만일 위치를 명시하지 않아도 작동이 올바르게 되는 경우, 위 코드는 주석 처리 후 넘어가도 됩니다.
 
+ pyw 확장자 실행으로 콘솔창을 확인할 수 없는 경우에는 py 확장자를 통해 오류 확인이 필요합니다
+
 example)
  <br />SCOP can't specifying the location, use this code. If, it works fine, don't use it.
  <br />오류로 인해 QT 플러그인의 경로를 명시적으로 적어둔 코드 작성, 오류가 없을 시 사용하지 않아도 됨.
@@ -48,7 +50,7 @@ In most cases, it will be installed in the Lib/site-packages folder of your Pyth
 
 
 # future plan
-+ add specifying zone capture function
++ add zone capture function
 + add support various extensions
 + etc...
 
